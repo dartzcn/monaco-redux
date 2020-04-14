@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daniel Friesen",
+			"James Haley",
+            "Gage Morgan",
+			"Dartz"
+		],
+		"version": "2020-04-14"
+	},
+	"monaco-desc": "Unbranded Monaco skin for use with vanilla MediaWiki. Modded to work with version later than 1.16 by James Haley. Modified to work with MediaWiki 1.31+ by Dartz. Modified to have community box, News extension, and wfSkinLoader by MGageMorgan. Originally ported by Daniel Friesen.",
+	"dynamic-links": "You can add dynamic link ids to monaco using this message, add a new id on each line\n (you can use a * at the start like in sidebar and monaco-sidebar to make this a list)\n Lines starting with a space will be treated as a comment.\n After adding a new id to the list you can use the 'dynamic-links-<id>' message\n to customize the text of the link and 'dynamic-links-<id>-url' message with the name\n of a page title on the wiki for the dynamic link to link to.\n\n",
+	"dynamic-links-write-article": "Create a new article",
+	"dynamic-links-write-article-url": "-",
+	"dynamic-links-add-image": "Upload a new image",
+	"monaco-sidebar": "* mainpage|mainpage-description\n* randompage-url|randompage\n* portal-url|community\n** portal-url|portal\n** currentevents-url|currentevents",
+	"monaco-toolbox": "recentchanges-url|recentchanges \nrandompage-url|randompage \nspecialpages-url|specialpages \nhelppage|help",
+	"community": "Community",
+	"specialpages-url": "Special:SpecialPages",
+	"monaco-footer-improve": "Improve {{SITENAME}} by $1",
+	"monaco-footer-improve-linktext": "editing this page",
+	"monaco-footer-lastedit": "$1 made an edit on $2",
+	"viewrandompage": "View random page",
+	"masthead-anonymous-user": "Anonymous user",
+	"skinname-monaco": "Monaco Redux",
+	"monaco-tab-edit": "Edit this page",
+	"monaco-tab-addsection": "Leave message",
+	"number": "{{NUMBEROFARTICLES}} articles on this wiki",
+        "latest": " <news limit=\"2\"/>",
+	"forward": "Hi! This is a message to you from MGageMorgan. Thanks for choosing my Monaco fork! What makes this fork different from the others is its ShoutWiki-style community box built-in.\n\n",
+	"intro": "To get the Community widget to function, please do the following in order:\n\n",
+	"step1": "1. In LocalSettings.php, add 'require_once \"$IP/skins/monaco/extensions/\nNews/News.php\";' to the bottom.\n\n",
+	"step2": "2: In monaco.php, set the variable $UseCommunity equal to TRUE.",
+	"newsbox-title": "{{SITENAME}} Messages",
+	"newsbox-homepage": "\n[[Main Page|{{SITENAME}} Home]]\n",
+	"newsbox-createwiki": "\nInsert URL at MediaWiki:newsbox-createwiki (could be anything you want)\n",
+	"newsbox": "Insert news text/link/whatever at MediaWiki:newsbox\n"
+}
