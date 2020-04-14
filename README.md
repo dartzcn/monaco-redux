@@ -6,7 +6,7 @@ Live demo: https://computernewb.com/wiki/Main_Page?useskin=monaco
 
 Note not everything works yet, and this is incomplete.
 
-![alt-text](https://github.com/computernewb/monaco-port/blob/master/screenshots/latest.png?raw=true 2)
+![alt-text](https://github.com/computernewb/monaco-redux/blob/master/screenshots/latest.png?raw=true 2)
 
 ## Installation
 Clone this repository into your MediaWiki skins folder, and add the following 
@@ -26,5 +26,5 @@ require_once("$IP/skins/monaco/monaco.php");
 ```
 ## Screenshots
 Zoomed-out images of the skin itself:
-![alt-text](https://github.com/computernewb/monaco-port/blob/master/screenshots/shot1.png?raw=true 1)
-![alt-text](https://github.com/computernewb/monaco-port/blob/master/screenshots/shot2.png?raw=true 3)
+![alt-text](https://github.com/computernewb/monaco-redux/blob/master/screenshots/shot1.png?raw=true 1)
+![alt-text](https://github.com/computernewb/monaco-redux/blob/master/screenshots/shot2.png?raw=true 3)
