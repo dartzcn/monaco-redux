@@ -804,7 +804,7 @@ if ($custom_article_footer !== '') {
 <?php
 		if ($namespaceType == 'talk') {
 			$custom_article_footer = '';
-			wfRunHooks('AddNewTalkSection', array( &$this, &$tpl, &$custom_article_footer ));
+			Hooks::run('AddNewTalkSection', array( &$this, &$tpl, &$custom_article_footer ));
 			if ($custom_article_footer != '')
 				echo $custom_article_footer;
 		} else {
@@ -1366,7 +1366,7 @@ $this->html('reporttime');
 		<!-- RIGHT SIDEBAR -->
 		<div id="right_sidebar" class="sidebar right_sidebar">
 <?php $this->lateRightSidebar(); ?>
-<?php wfRunHooks('MonacoRightSidebar::Late', array($this)); ?>
+<?php Hooks::run('MonacoRightSidebar::Late', array($this)); ?>
 <?php echo $this->mRightSidebar ?>
 		</div>
 		<!-- /RIGHT SIDEBAR -->
