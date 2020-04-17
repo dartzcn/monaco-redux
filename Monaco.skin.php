@@ -442,7 +442,7 @@ foreach ( $tpl->data['content_navigation'] as $section => $nav ) {
 					$msgKey = $kk;
 					if ( $kk == "edit" ) {
 						$title = $this->getSkin()->getTitle();
-						$msgKey = $title->exists() || ( $title->getNamespace() == NS_MEDIAWIKI && !wfEmptyMsg( $title->getText() ) )
+						$msgKey = $title->exists() || ( $title->getNamespace() == NS_MEDIAWIKI && !wfMessage( $title->getText() ) )
 							? "edit" : "create";
 					}
 
