@@ -5,7 +5,7 @@
 **
 ** Loosely based on http://www.positioniseverything.net/ordered-floats.html by Big John
 ** and the Plone 2.0 styles, see http://plone.org/ (Alexander Limi,Joe Geldart & Tom Croucher,
-** Michael Zeltner and Geir Bækholt)
+** Michael Zeltner and Geir BÃ¦kholt)
 ** All you guys rock :)
 */
 
@@ -1319,4 +1319,11 @@ div#mw-recreate-deleted-warn ul li {
 
 .changes-list-entry a img {
 	display: none;
+}
+.warningbox {
+    background-color: #fef6e7;
+    border: solid 1px #fc3;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
