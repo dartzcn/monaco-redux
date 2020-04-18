@@ -988,7 +988,7 @@ if ($custom_article_footer !== '') {
 					)); ?>
 					<?php global $wgSearchDefaultFulltext; ?>
 					<input type="hidden" name="<?php echo ( $wgSearchDefaultFulltext ) ? 'fulltext' : 'go'; ?>" value="1" />
-					<input type="image" src="style/images/search.png" id="search-button" class="search" tabIndex=1 />
+					<input type="image" src="<?php echo $this->getSkin()->getSkinStylePath( 'style/images/search.png'); ?>" id="search-button" class="search" tabIndex=1 />
 				</form>
 			</div>
 <?php
