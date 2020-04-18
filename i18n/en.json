@@ -34,5 +34,6 @@
 	"newsbox-title": "{{SITENAME}} Messages",
 	"newsbox-homepage": "\n[[Main Page|{{SITENAME}} Home]]\n",
 	"newsbox-createwiki": "\nInsert URL at MediaWiki:newsbox-createwiki (could be anything you want)\n",
-	"newsbox": "Insert news text/link/whatever at MediaWiki:newsbox\n"
+	"newsbox": "Insert news text/link/whatever at MediaWiki:newsbox\n",
+	"nologinlink": "Create Account"
 }
