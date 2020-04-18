@@ -171,7 +171,7 @@ a.greyButton big {
 	border-color: #999;
 	font-size: 9pt;
 	position: absolute;
-	right: 0;
+	left: -62px;
 	overflow: hidden;
 	white-space: nowrap;
 	/* Hide the menu but leave the contents available for tab selection */
