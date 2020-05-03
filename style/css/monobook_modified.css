@@ -1327,3 +1327,15 @@ div#mw-recreate-deleted-warn ul li {
     margin-bottom: 10px;
     margin-top: 10px;
 }
+.mw-echo-ui-datedSubGroupListWidget-title-primary {
+    font-size: 1.0em;
+    margin-right: 0.5em;
+    display: inline-block;
+}
+.mw-echo-ui-datedSubGroupListWidget-title-secondary {
+    font-size: 1.0em;
+    color: #72777d;
+}
+.mw-echo-ui-datedSubGroupListWidget-title {
+    border-bottom: 0px;
+}
