@@ -1327,3 +1327,10 @@ div#mw-recreate-deleted-warn ul li {
     margin-bottom: 10px;
     margin-top: 10px;
 }
+.mw-editsection, .mw-editsection-like {
+    font-size: small;
+    font-weight: normal;
+    margin-left: 1em;
+    vertical-align: baseline;
+    line-height: 1em;
+}
