@@ -1340,3 +1340,22 @@ div#mw-recreate-deleted-warn ul li {
 .mw-datatable tr:hover td {
     background-color: #eaf3ff;
 }
+.mw-editsection, .mw-editsection-like {
+    font-size: small;
+    font-weight: normal;
+    margin-left: 1em;
+    vertical-align: baseline;
+    line-height: 1em;
+}
+.mw-echo-ui-datedSubGroupListWidget-title-primary {
+    font-size: 1.0em;
+    margin-right: 0.5em;
+    display: inline-block;
+}
+.mw-echo-ui-datedSubGroupListWidget-title-secondary {
+    font-size: 1.0em;
+    color: #72777d;
+}
+.mw-echo-ui-datedSubGroupListWidget-title {
+    border-bottom: 0px;
+}
