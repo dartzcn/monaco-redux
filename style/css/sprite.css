@@ -61,8 +61,8 @@
 .sprite.search { background-position: -32px -170px; }
 .sprite.refresh { background-position: -48px -170px; }
 .sprite.back { background-position: -64px -170px; }
-.sprite.watch { background-position: -17px -170px; }
-.sprite.unwatch { background-position: -17px -170px; }
+.sprite.watch { background-position: -16px -170px; }
+.sprite.unwatch { background-position: -16px -170px; }
 
 .sprite.details { background-position: 0 -186px; }
 
